@@ -1,16 +1,13 @@
 package post.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Data
+@ToString
 
-public class PostDto {
+public class TodoDto {
         int userId;
         int id;
         String title;
